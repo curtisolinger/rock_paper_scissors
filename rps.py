@@ -43,21 +43,21 @@ while True:
 
 print(graphic[choice0])
 if graphic[choice0] == rock:
-  print("You chose a rock,")
+  print("You choose a rock,")
 elif graphic[choice0] == paper:
-  print("You chose paper,")
+  print("You choose paper,")
 else:
-  print("You chose scissors,")
+  print("You choose scissors,")
 
 
 choice1 = random.choice(graphic)
 print(choice1)
 if choice1 == rock:
-  print("and the computer chose a rock.")
+  print("and the computer choose a rock.", end=" ")
 elif choice1 == paper:
-  print("and the computer chose paper.")
+  print("and the computer choose paper.", end=" ")
 else:
-  print("and the comnputer chose scissors.")
+  print("and the comnputer choose scissors.", end=" ")
 
 
 if graphic[choice0] == choice1:
